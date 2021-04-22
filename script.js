@@ -20,7 +20,7 @@ document.querySelector('input[type=submit]').addEventListener('click', ()=>{
             <h3>`+val.quantidade+`</h3>
             <h3>`+val.nome+`</h3>
             <h3>R$`+val.preco+`</h3>
-            <h3>R$`+val.quantidade*val.preco+`</h3>
+            <h3>R$`+(val.quantidade*val.preco).toFixed(2)+`</h3>
             </div>
         `;
     });
