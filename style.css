@@ -20,6 +20,13 @@ header{
     margin: 2px;
     padding-left: 20px;
 }
+
+.cadastro input[type=number]{
+    flex: 1;
+    height: 30px;
+    margin: 2px;
+    padding-left: 20px;
+}
 .listagem-head{
     display: flex;
     margin:0 20px ;
@@ -31,6 +38,16 @@ header{
 .listagem-head h3{
     flex: 1;
     padding: 0 20px;
+}
+.listagem-item{
+    display: flex;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+    margin:0 20px ;
+}
+.listagem-item h3{
+    flex:1;
+    padding:0 20px;
 }
 .soma-produtos{
     text-align: right;
