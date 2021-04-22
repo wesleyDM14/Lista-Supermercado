@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            header{
+                background-color: rgb(81 128 247);
+                text-align: center;
+                color: rgb(255, 255, 255);
+                padding:20px 0;
+            }
+            .cadastro{
+                display: flex;
+                margin: 20px;
+                padding: 20px;
+            }
+            .cadastro input[type=text]{
+                flex: 1;
+                height: 30px;
+                margin: 2px;
+                padding-left: 20px;
+            }
+            .listagem-head{
+                display: flex;
+                margin:0 20px ;
+                padding: 20px;
+                background-color: rgb(81 128 247);
+                text-align: center;
+                color: rgb(255, 255, 255);
+            }
+            .listagem-head h3{
+                flex: 1;
+                padding: 0 20px;
+            }
+            .soma-produtos{
+                text-align: right;
+                margin:20px ;
+                background-color: rgb(81 128 247);
+                color: rgb(255, 255, 255);
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2>Lista de Supermercado</h2>
+        </header>
+        <div class="cadastro">
+            <input type="text" name="nome_produto" placeholder="Digite o nome do produto" />
+            <input type="text" name="preco_produto" placeholder="Digite o preço do produto" />
+            <input type="text" name="quantidade_produto" placeholder="Digite a quantidade do produto" />
+            <input type="submit" name="action" value="Cadastrar" />
+        </div>
+        <div class="listagem-head">
+            <h3>Quantidade</h3>
+            <h3>Nome</h3>
+            <h3>Preço Unitário</h3>
+            <h3>Preço acumulado</h3>
+        </div>
+        <div class="listagem-body">
+
+        </div>
+        <div class="soma-produtos">
+            <h2>Total</h2>
+        </div>
+        <script>
+
+        </script>
+    </body>
+</html>
